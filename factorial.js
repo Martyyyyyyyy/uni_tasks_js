@@ -9,11 +9,11 @@ function factorial(num) {
   }
   // інакше, використовуємо цикл for, щоб обчислити факторіал
   else {
-    let factorial = 1;
+    let factorial_number = 1;
     for (let i = 1; i <= num; i++) {
-      factorial *= i;
+      factorial_number *= i;
     }
-    return factorial;
+    return factorial_number;
   }
 }
 
